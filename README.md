@@ -1,24 +1,6 @@
-# movie_search_web
+Привет!
+Если тебе надоело по часу выбирать что смотреть - то это приложение для тебя!
+Добавь нужные характеристки и ищи то, что действительно интересно!
+Поехали! 🚀
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Это приложение было создано с помощью API  https://kinopoisk.dev/ 

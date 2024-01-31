@@ -1,17 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <v-app >
+    <app-navbar />
+    <bread-crumbs/>
+    <v-main>
+      <router-view />
+    </v-main>
+    <modal-cookie />
+  </v-app>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<script setup>
+import AppNavbar from "@/components/UI/AppNavbar.vue";
+import ModalCookie from "@/components/UI/ModalCookie.vue";
+import BreadCrumbs from "@/components/UI/BreadCrumbs.vue";
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+
 </script>
 
 <style>
@@ -21,6 +24,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
+
